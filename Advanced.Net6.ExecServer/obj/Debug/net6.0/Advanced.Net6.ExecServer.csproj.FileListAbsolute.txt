@@ -1,0 +1,5 @@
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.ExecServer\obj\Debug\net6.0\Advanced.Net6.ExecServer.csproj.AssemblyReference.cache
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.ExecServer\obj\Debug\net6.0\Advanced.Net6.ExecServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.ExecServer\obj\Debug\net6.0\Advanced.Net6.ExecServer.AssemblyInfoInputs.cache
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.ExecServer\obj\Debug\net6.0\Advanced.Net6.ExecServer.AssemblyInfo.cs
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.ExecServer\obj\Debug\net6.0\Advanced.Net6.ExecServer.csproj.CoreCompileInputs.cache

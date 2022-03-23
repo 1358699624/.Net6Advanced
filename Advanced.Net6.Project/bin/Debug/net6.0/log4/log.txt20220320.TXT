@@ -1,0 +1,51 @@
+2022-03-20 16:31:35,805 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7297
+2022-03-20 16:31:36,486 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 16:31:36,503 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 16:31:36,528 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Project\
+2022-03-20 16:35:38,725 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7297
+2022-03-20 16:35:39,298 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 16:35:39,373 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 16:35:39,393 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Project\
+2022-03-20 18:05:19,407 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7297
+2022-03-20 18:05:20,221 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 18:05:20,424 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 18:05:20,524 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Project\
+2022-03-20 18:05:38,387 [9] ERROR Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor - The view 'Index3' was not found. Searched locations: /Views/Fourth/Index3.cshtml, /Views/Shared/Index3.cshtml
+2022-03-20 18:05:38,476 [9] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index3' was not found. The following locations were searched:
+/Views/Fourth/Index3.cshtml
+/Views/Shared/Index3.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-20 18:07:08,895 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7297
+2022-03-20 18:07:09,861 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 18:07:10,310 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 18:07:10,518 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Project\
+2022-03-20 18:08:37,044 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7297
+2022-03-20 18:08:38,490 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 18:08:38,512 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 18:08:38,522 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Project\
+2022-03-20 18:10:24,187 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7297
+2022-03-20 18:10:24,631 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 18:10:24,644 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 18:10:24,653 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Project\

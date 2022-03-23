@@ -1,0 +1,15 @@
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\bin\Debug\net6.0\Advanced.Net6.Service.deps.json
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\bin\Debug\net6.0\Advanced.Net6.Service.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\bin\Debug\net6.0\Advanced.Net6.Service.pdb
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\bin\Debug\net6.0\Advanced.Net6.Interface.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\bin\Debug\net6.0\Advanced.Net6.Interface.pdb
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\obj\Debug\net6.0\Advanced.Net6.Service.csproj.AssemblyReference.cache
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\obj\Debug\net6.0\Advanced.Net6.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\obj\Debug\net6.0\Advanced.Net6.Service.AssemblyInfoInputs.cache
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\obj\Debug\net6.0\Advanced.Net6.Service.AssemblyInfo.cs
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\obj\Debug\net6.0\Advanced.Net6.Service.csproj.CoreCompileInputs.cache
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\obj\Debug\net6.0\Advanced.Net6.Service.csproj.CopyComplete
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\obj\Debug\net6.0\Advanced.Net6.Service.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\obj\Debug\net6.0\refint\Advanced.Net6.Service.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\obj\Debug\net6.0\Advanced.Net6.Service.pdb
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\obj\Debug\net6.0\ref\Advanced.Net6.Service.dll

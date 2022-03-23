@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Advanced.Net6.Service/1.0.0": {
+        "dependencies": {
+          "Advanced.Net6.Interface": "1.0.0"
+        },
+        "runtime": {
+          "Advanced.Net6.Service.dll": {}
+        }
+      },
+      "Advanced.Net6.Interface/1.0.0": {
+        "runtime": {
+          "Advanced.Net6.Interface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Advanced.Net6.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Advanced.Net6.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

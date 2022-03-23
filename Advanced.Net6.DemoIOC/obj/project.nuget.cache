@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "HTUclyTG6t2T+IuGNxROzcEuPIROt4q5etd4mV9OTMeE82kiu4KtHvTcxBly4MhEM2/mEhIPNIg7qQ6xHOl+JQ==",
+  "success": true,
+  "projectFilePath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.DemoIOC\\Advanced.Net6.DemoIOC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\m\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\m\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\m\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

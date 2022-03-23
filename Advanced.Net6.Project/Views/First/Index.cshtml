@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@model string
+<h1>User1 = @ViewBag.User1</h1>
+<h1>User2 = @ViewData["User2"]</h1>
+<h1>User3 = @TempData["User3"]</h1>
+<h1>User4 = @Context.Session.GetString("User4")</h1>
+<h1>User5 = @Model</h1>
+

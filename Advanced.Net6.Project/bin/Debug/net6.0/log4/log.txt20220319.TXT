@@ -1,0 +1,24 @@
+2022-03-19 16:13:47,124 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-19 16:13:48,439 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-19 16:13:48,484 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Project\
+2022-03-19 17:06:14,481 [198] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-19 17:06:58,045 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7297
+2022-03-19 17:06:58,259 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-19 17:06:58,267 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-19 17:06:58,273 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Project\
+2022-03-19 17:26:50,318 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7297
+2022-03-19 17:26:50,865 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-19 17:26:50,908 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-19 17:26:50,956 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Project\
+2022-03-19 19:39:38,332 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7297
+2022-03-19 19:39:40,912 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-19 19:39:41,087 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-19 19:39:41,134 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Project\
