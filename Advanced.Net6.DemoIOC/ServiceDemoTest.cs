@@ -88,7 +88,7 @@ namespace Advanced.Net6.DemoIOC
 
         public static void Show2() {
 
-
+             //ma 分支
             {   //瞬时IOC  serviceProvider 每次都是全新的实例
                 ServiceCollection serviceDescriptors = new ServiceCollection();
                 serviceDescriptors.AddTransient<IMircPhone, MircPhone>();
