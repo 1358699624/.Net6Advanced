@@ -24,6 +24,9 @@ namespace Advanced.Net6.DemoIOC
             }
         }
 
+        /// <summary>
+        /// IOC DI 泛型版本
+        /// </summary>
         public static void Show()
         {
             {   //瞬时IOC  serviceProvider 每次都是全新的实例
@@ -82,5 +85,42 @@ namespace Advanced.Net6.DemoIOC
 
             }
         }
+
+        public static void Show2() {
+
+
+            {   //瞬时IOC  serviceProvider 每次都是全新的实例
+                ServiceCollection serviceDescriptors = new ServiceCollection();
+                serviceDescriptors.AddTransient<IMircPhone, MircPhone>();
+                ServiceProvider serviceProvider = serviceDescriptors.BuildServiceProvider();
+                IMircPhone mircPhone1 = serviceProvider.GetService<IMircPhone>();
+            }
+
+
+            {   //瞬时IOC  serviceProvider 每次都是全新的实例
+                ServiceCollection serviceDescriptors = new ServiceCollection();
+                serviceDescriptors.AddTransient(typeof(IMircPhone), typeof(MircPhone));
+                ServiceProvider serviceProvider = serviceDescriptors.BuildServiceProvider();
+                IMircPhone mircPhone1 = serviceProvider.GetService<IMircPhone>();
+            }
+
+            {   //瞬时IOC  serviceProvider 每次都是全新的实例
+                ServiceCollection serviceDescriptors = new ServiceCollection();
+                serviceDescriptors.AddTransient(typeof(IMircPhone), mirc => {
+
+                    IMircPhone mircPhone1 = mirc.GetService<IMircPhone>();
+                    return mircPhone1;
+                });
+                ServiceProvider serviceProvider = serviceDescriptors.BuildServiceProvider();
+                MircPhone mircPhone1 = serviceProvider.GetService<MircPhone>();
+            }
+
+            {   //瞬时IOC  serviceProvider 每次都是全新的实例
+                ServiceCollection serviceDescriptors = new ServiceCollection();
+                serviceDescriptors.AddTransient<MircPhone>();
+                ServiceProvider serviceProvider = serviceDescriptors.BuildServiceProvider();
+                MircPhone mircPhone1 = serviceProvider.GetService<MircPhone>();
+            }
+        }    
     }
 }

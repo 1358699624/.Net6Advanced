@@ -14,5 +14,7 @@ ServiceDemoTest.ServiceTest();
 
 ServiceDemoTest.Show();
 
+
+ServiceDemoTest.Show2();
 Console.ReadLine();
         
