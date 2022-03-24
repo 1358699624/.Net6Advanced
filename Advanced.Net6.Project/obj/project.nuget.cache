@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "EUrYRd+yboacGuIIHXib/J35/QM5AsIP2pvYxrxCDoek1Ergplqvg28LOyFbcPJl+xsz1P+mdQOB/IcJSgpNyQ==",
+  "dgSpecHash": "VjldFr/+zoqJAqf25XMlBWV+Z2sgs0ioCWJvnAO4a/Zb7PWBRvqa3BMUY/volq3BDp6lRYX/vvpeOkgYlIO4jA==",
   "success": true,
   "projectFilePath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Project.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\m\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\m\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Users\\m\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\m\\.nuget\\packages\\log4net\\2.0.14\\log4net.2.0.14.nupkg.sha512",
     "C:\\Users\\m\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

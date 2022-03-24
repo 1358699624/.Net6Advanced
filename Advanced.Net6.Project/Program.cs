@@ -1,3 +1,5 @@
+using Advanced.Net6.Interface;
+using Advanced.Net6.Service;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Security.Claims;
 
@@ -54,6 +56,10 @@ builder.Services.AddControllersWithViews();
         });
     });
 }
+#endregion
+
+#region ×¢²á·þÎñ
+    builder.Services.AddTransient<IMircPhone, MircPhone>();
 #endregion
 var app = builder.Build();
 

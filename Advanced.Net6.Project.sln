@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.Net6.Project", "Ad
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.Net6.ExecServer", "Advanced.Net6.ExecServer\Advanced.Net6.ExecServer.csproj", "{FF6B8608-7258-49CE-87CA-34D3365DF492}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.Net6.DemoIOC", "Advanced.Net6.DemoIOC\Advanced.Net6.DemoIOC.csproj", "{E1BEB633-372F-4DB3-9D58-0DADEB947DE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.Net6.DemoIOC", "Advanced.Net6.DemoIOC\Advanced.Net6.DemoIOC.csproj", "{E1BEB633-372F-4DB3-9D58-0DADEB947DE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.Net6.Interface", "Advanced.Net6.Interface\Advanced.Net6.Interface.csproj", "{D45A9F3E-6951-4BD8-9402-C29793A1D57C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.Net6.Interface", "Advanced.Net6.Interface\Advanced.Net6.Interface.csproj", "{D45A9F3E-6951-4BD8-9402-C29793A1D57C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.Net6.Service", "Advanced.Net6.Service\Advanced.Net6.Service.csproj", "{51316EC0-009B-4AC1-932D-EEB5B36F7840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.Net6.Service", "Advanced.Net6.Service\Advanced.Net6.Service.csproj", "{51316EC0-009B-4AC1-932D-EEB5B36F7840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacAttribue", "AutofacAttribue\AutofacAttribue.csproj", "{F9EE152A-65F4-4B03-B746-612857F97973}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{51316EC0-009B-4AC1-932D-EEB5B36F7840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51316EC0-009B-4AC1-932D-EEB5B36F7840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51316EC0-009B-4AC1-932D-EEB5B36F7840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9EE152A-65F4-4B03-B746-612857F97973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9EE152A-65F4-4B03-B746-612857F97973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9EE152A-65F4-4B03-B746-612857F97973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9EE152A-65F4-4B03-B746-612857F97973}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

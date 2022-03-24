@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Project
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/VS2019/vs2022/Advanced.Net6.Project/Advanced.Net6.Project/Advanced.Net6.Project/Views/Fifth/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlmdGhcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/VS2019/vs2022/Advanced.Net6.Project/Advanced.Net6.Project/Advanced.Net6.Project/Views/First/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlyc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

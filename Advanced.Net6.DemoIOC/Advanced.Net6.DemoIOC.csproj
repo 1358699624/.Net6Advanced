@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.2.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
   </ItemGroup>
@@ -15,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Advanced.Net6.Interface\Advanced.Net6.Interface.csproj" />
     <ProjectReference Include="..\Advanced.Net6.Service\Advanced.Net6.Service.csproj" />
+    <ProjectReference Include="..\AutofacAttribue\AutofacAttribue.csproj" />
   </ItemGroup>
 
 </Project>

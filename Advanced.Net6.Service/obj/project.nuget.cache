@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "kOze1nyaJ4pSbz70xr5afjOCsL5N4L1O3OLupYrbVyYndtHqzcXORsIsEH15/qTDAP3UdP+9Mx7+mdfti+xu6A==",
+  "dgSpecHash": "db12wW+SNdp9kiLmFLCf+CPtwBdjQMcbeX50IvoHH3LGjpWRkxgjpLXBkJ4wh8gzl8uJ+K7xCezl5ZZ6iWkr/w==",
   "success": true,
   "projectFilePath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Service\\Advanced.Net6.Service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\m\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\m\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
+    "C:\\Users\\m\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\m\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }

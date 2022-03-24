@@ -1,0 +1,4 @@
+2022-03-22 17:07:51,127 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7297
+2022-03-22 17:07:51,810 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-22 17:07:51,832 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-22 17:07:51,839 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Project\

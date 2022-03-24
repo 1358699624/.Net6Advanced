@@ -10,11 +10,13 @@ Console.WriteLine("Hello, World!");
     //传统工艺
     //MircPhone phone = new MircPhone();
 }
-ServiceDemoTest.ServiceTest();
 
-ServiceDemoTest.Show();
+AutofacTest.Show();
 
+//ServiceDemoTest.ServiceTest();
 
-ServiceDemoTest.Show2();
+//ServiceDemoTest.Show();
+
+//ServiceDemoTest.Show2();
 Console.ReadLine();
         
