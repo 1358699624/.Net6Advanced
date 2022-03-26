@@ -2,11 +2,6 @@ using Advanced.Net6.Interface;
 using Advanced.Net6.Service;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Security.Claims;
-using Autofac;
-using Autofac.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Advanced.Net6.Service.IOC;
-using Advanced.Net6.Interface.IOC;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -65,19 +60,6 @@ builder.Services.AddControllersWithViews();
 
 #region 注册服务
     builder.Services.AddTransient<IMircPhone, MircPhone>();
-#endregion
-
-#region Autofac 整合 ASP .NET  6
-//替换Mircsoft的Service.AddTransient
-builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
-
-builder.Host.ConfigureContainer<ContainerBuilder>(containerbuilder => {
-    containerbuilder.RegisterType<MircPhone>().As<IMircPhone>();
-    containerbuilder.RegisterType<Power>().As<IPower>();
-    containerbuilder.RegisterType<Headphone>().As<IHeadphone>();
-
-    containerbuilder.RegisterType<Phone>().As<IPhone>();
-});
 #endregion
 var app = builder.Build();
 
