@@ -9,6 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+#region  swagger
+
+
 builder.Services.AddSwaggerGen(c => {
     foreach (var item in typeof(ApiVersionInfo).GetFields())
     {
@@ -26,7 +29,19 @@ builder.Services.AddSwaggerGen(c => {
     c.IncludeXmlComments(xmlPath);
     #endregion
 });
+#endregion
 
+#region 跨域问题
+builder.Services.AddCors(
+    c => {
+   c.AddPolicy("CorsPolicy", opt => opt
+  .AllowAnyOrigin()
+  .AllowAnyHeader()
+  .AllowAnyMethod()
+  .WithExposedHeaders("X-Pagination"));
+    });
+
+#endregion
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -41,10 +56,16 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-app.UseHttpsRedirection();
-
+//app.UseHttpsRedirection();
+#region  鉴权授权
+app.UseAuthentication();
 app.UseAuthorization();
+#endregion
 
+/// <summary>
+/// 跨域解决
+/// </summary>
+app.UseCors("CorsPolicy");
 app.MapControllers();
 
 app.Run();

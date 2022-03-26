@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.Net6.Service", "Ad
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacAttribue", "AutofacAttribue\AutofacAttribue.csproj", "{F9EE152A-65F4-4B03-B746-612857F97973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.Net6.WebApi", "Advanced.Net6.WebApi\Advanced.Net6.WebApi.csproj", "{E3B69293-EEC1-4BA0-98CC-F18F8E3F81E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advanced.Net6.WebApi", "Advanced.Net6.WebApi\Advanced.Net6.WebApi.csproj", "{E3B69293-EEC1-4BA0-98CC-F18F8E3F81E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced.NET6.JWTApi", "Advanced.NET6.JWTApi\Advanced.NET6.JWTApi.csproj", "{0BAB07D1-5000-4F20-822E-3D178C02A75A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{E3B69293-EEC1-4BA0-98CC-F18F8E3F81E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3B69293-EEC1-4BA0-98CC-F18F8E3F81E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3B69293-EEC1-4BA0-98CC-F18F8E3F81E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BAB07D1-5000-4F20-822E-3D178C02A75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BAB07D1-5000-4F20-822E-3D178C02A75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BAB07D1-5000-4F20-822E-3D178C02A75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BAB07D1-5000-4F20-822E-3D178C02A75A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Advanced.NET6.JWTApi</name>
+    </assembly>
+    <members>
+        <member name="T:Advanced.NET6.JWTApi.Controllers.JWTController">
+            <summary>
+            jwt
+            </summary>
+        </member>
+        <member name="M:Advanced.NET6.JWTApi.Controllers.JWTController.GetTokenJWT(System.String,System.String)">
+            <summary>
+            aaa
+            </summary>
+            <param name="Name"></param>
+            <param name="pwd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Advanced.NET6.JWTApi.Controllers.JWTController.GetTokenJWT2(System.String,System.String)">
+            <summary>
+            222
+            </summary>
+            <param name="Name"></param>
+            <param name="pwd"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

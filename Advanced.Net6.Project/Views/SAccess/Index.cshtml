@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+<script src="~/lib/jquery/dist/jquery.min.js"></script> 
+<h1>Index</h1>
+
+<body>
+    <form method="post">
+       <div class="row">
+        <div class="col-md-5">
+            <p>
+                <input type="button" id="btnGetCors" value="跨域Get1" /> 
+            </p> 
+        </div> 
+    </div>
+    </form>
+    <script>
+        $(function () { 
+            $("#btnGetCors").on("click", function () {
+                $.ajax({ url: "http://localhost:5029/api/First/GetData", 
+                         type: "get", 
+                         data: { "id": 1 }, 
+                         success: function (data)  { 
+                             alert(JSON.stringify(data));  
+                         }, 
+                         datatype: "json" });
+            });
+
+        });
+    </script>
+</body>
+

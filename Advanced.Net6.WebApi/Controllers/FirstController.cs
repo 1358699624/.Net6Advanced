@@ -32,6 +32,23 @@ namespace Advanced.Net6.WebApi.Controllers
         }
 
         /// <summary>
+        /// 根据id获取数据
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        // GET api/<FirstController>/5
+        [HttpGet()]
+        public object GetData(int id)
+        {
+            Console.WriteLine("接收成功```");
+            return  new { 
+                Name ="Richar",
+                Value = "value",
+                Pwd = "pwd"
+            };
+        }
+
+        /// <summary>
         /// 提交数据
         /// </summary>
         /// <param name="value"></param>

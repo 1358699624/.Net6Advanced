@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2brhwXKW6rOFDOPpg5aFRH3o+rFBD5btoUrsGGmYxHE=",
+  "Source": "Advanced.NET6.JWTApi",
+  "BasePath": "_content/Advanced.NET6.JWTApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

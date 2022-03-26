@@ -17,6 +17,13 @@
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="M:Advanced.Net6.WebApi.Controllers.FirstController.GetData(System.Int32)">
+            <summary>
+            根据id获取数据
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="M:Advanced.Net6.WebApi.Controllers.FirstController.Post(System.String)">
             <summary>
             提交数据
