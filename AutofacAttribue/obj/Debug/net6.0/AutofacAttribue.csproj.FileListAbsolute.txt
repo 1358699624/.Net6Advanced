@@ -10,3 +10,5 @@ D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\AutofacAttribue\obj
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\AutofacAttribue\obj\Debug\net6.0\refint\AutofacAttribue.dll
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\AutofacAttribue\obj\Debug\net6.0\AutofacAttribue.pdb
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\AutofacAttribue\obj\Debug\net6.0\ref\AutofacAttribue.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\AutofacAttribue\bin\Debug\net6.0\AutofacAttribue.runtimeconfig.json
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\AutofacAttribue\obj\Debug\net6.0\AutofacAttribue.genruntimeconfig.cache

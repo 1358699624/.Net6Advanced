@@ -1,0 +1,14 @@
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\EntityFormworkCore6\bin\Debug\net6.0\EntityFormworkCore6.deps.json
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\EntityFormworkCore6\bin\Debug\net6.0\EntityFormworkCore6.runtimeconfig.json
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\EntityFormworkCore6\bin\Debug\net6.0\EntityFormworkCore6.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\EntityFormworkCore6\bin\Debug\net6.0\EntityFormworkCore6.pdb
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\EntityFormworkCore6\obj\Debug\net6.0\EntityFormworkCore6.csproj.AssemblyReference.cache
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\EntityFormworkCore6\obj\Debug\net6.0\EntityFormworkCore6.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\EntityFormworkCore6\obj\Debug\net6.0\EntityFormworkCore6.AssemblyInfoInputs.cache
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\EntityFormworkCore6\obj\Debug\net6.0\EntityFormworkCore6.AssemblyInfo.cs
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\EntityFormworkCore6\obj\Debug\net6.0\EntityFormworkCore6.csproj.CoreCompileInputs.cache
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\EntityFormworkCore6\obj\Debug\net6.0\EntityFormworkCore6.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\EntityFormworkCore6\obj\Debug\net6.0\refint\EntityFormworkCore6.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\EntityFormworkCore6\obj\Debug\net6.0\EntityFormworkCore6.pdb
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\EntityFormworkCore6\obj\Debug\net6.0\EntityFormworkCore6.genruntimeconfig.cache
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\EntityFormworkCore6\obj\Debug\net6.0\ref\EntityFormworkCore6.dll
