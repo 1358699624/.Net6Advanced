@@ -72,19 +72,19 @@ builder.Services.AddCors(
 
 #endregion
 
-#region  JWT
+#region  JWT加入管道
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options => {
     options.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SDMC-CJAS1-SAD-DFSFA-SADHJVF-VF")),
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SDMC-CJAS1-SAD-DFSFA-SADHJVF-VF")),//密钥跟jwt服务要一致
         ValidateIssuer = true,
-        ValidIssuer = "http://localhost:5020",
+        ValidIssuer = "http://localhost:5020",//jwt接口端口
         ValidateAudience = true,
-        ValidAudience = "http://localhost:5029",
+        ValidAudience = "http://localhost:5029",//使用项目端口
         ValidateLifetime = true,
-        ClockSkew = TimeSpan.FromMinutes(60)
+        ClockSkew = TimeSpan.FromMinutes(60)//验证多长时间
     };
 });
 
