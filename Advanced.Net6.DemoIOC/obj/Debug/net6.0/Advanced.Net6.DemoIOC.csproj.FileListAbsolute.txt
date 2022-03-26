@@ -9,8 +9,10 @@ D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoI
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\bin\Debug\net6.0\Advanced.Net6.Interface.dll
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\bin\Debug\net6.0\Advanced.Net6.Service.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\bin\Debug\net6.0\AutofacAttribue.dll
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\bin\Debug\net6.0\Advanced.Net6.Interface.pdb
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\bin\Debug\net6.0\Advanced.Net6.Service.pdb
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\bin\Debug\net6.0\AutofacAttribue.pdb
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\obj\Debug\net6.0\Advanced.Net6.DemoIOC.csproj.AssemblyReference.cache
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\obj\Debug\net6.0\Advanced.Net6.DemoIOC.GeneratedMSBuildEditorConfig.editorconfig
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\obj\Debug\net6.0\Advanced.Net6.DemoIOC.AssemblyInfoInputs.cache
@@ -22,5 +24,3 @@ D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoI
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\obj\Debug\net6.0\Advanced.Net6.DemoIOC.pdb
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\obj\Debug\net6.0\Advanced.Net6.DemoIOC.genruntimeconfig.cache
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\obj\Debug\net6.0\ref\Advanced.Net6.DemoIOC.dll
-D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\bin\Debug\net6.0\AutofacAttribue.dll
-D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.DemoIOC\bin\Debug\net6.0\AutofacAttribue.pdb
