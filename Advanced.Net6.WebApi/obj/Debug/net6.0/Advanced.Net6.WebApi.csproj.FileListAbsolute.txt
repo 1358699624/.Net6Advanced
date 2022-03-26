@@ -27,3 +27,10 @@ D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebAp
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\obj\Debug\net6.0\ref\Advanced.Net6.WebApi.dll
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\bin\Debug\net6.0\Advanced.Net6.WebApi.xml
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\obj\Debug\net6.0\Advanced.Net6.WebApi.xml
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

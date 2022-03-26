@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -14,6 +15,7 @@ namespace Advanced.Net6.WebApi.Controllers
         /// </summary>
         /// <returns></returns>
         // GET: api/<FirstController>
+        [Authorize]
         [HttpGet]
         public IEnumerable<string> Get()
         {

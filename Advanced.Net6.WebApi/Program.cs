@@ -1,6 +1,9 @@
 using Advanced.Net6.WebApi.Controllers;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +31,32 @@ builder.Services.AddSwaggerGen(c => {
     string xmlPath = Path.Combine(basePath, "Advanced.NET6.WebApi.xml");
     c.IncludeXmlComments(xmlPath);
     #endregion
+
+    #region Swagger使用鉴权组件
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        Description = "直接在下框中输入Bearer {token}（注意两者之间是一个空格）",
+        Name = "Authorization",
+        BearerFormat = "JWT",
+        Scheme = "Bearer"
+    });
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+        {
+          {
+            new OpenApiSecurityScheme
+            {
+              Reference=new OpenApiReference
+              {
+                Type=ReferenceType.SecurityScheme,
+                Id="Bearer"
+              }
+            },
+            new string[] {}
+          }
+        });
+    #endregion
 });
 #endregion
 
@@ -42,6 +71,25 @@ builder.Services.AddCors(
     });
 
 #endregion
+
+#region  JWT
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options => {
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SDMC-CJAS1-SAD-DFSFA-SADHJVF-VF")),
+        ValidateIssuer = true,
+        ValidIssuer = "http://localhost:5020",
+        ValidateAudience = true,
+        ValidAudience = "http://localhost:5029",
+        ValidateLifetime = true,
+        ClockSkew = TimeSpan.FromMinutes(60)
+    };
+});
+
+#endregion
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

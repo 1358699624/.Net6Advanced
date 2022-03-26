@@ -45,6 +45,15 @@ namespace Advanced.NET6.JWTApi.Controllers
                         signingCredentials: new SigningCredentials(key, SecurityAlgorithms.HmacSha256)
                     );
                     var jwtToken = new JwtSecurityTokenHandler().WriteToken(token);
+
+                    #region .NET6返回ApiResult数据获取不到问题
+
+                    //{
+                    //    //返回 ApiResult
+                    //    return ResultHelper.Success(jwtToken);
+                    //}
+                    #endregion
+
                     return jwtToken;
                 }
                 else
