@@ -663,6 +663,7 @@
         "dependencies": {
           "Autofac": "6.3.0",
           "Autofac.Extensions.DependencyInjection": "7.2.0",
+          "EntityFormworkCore6": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
         },
@@ -686,6 +687,20 @@
         },
         "runtime": {
           "bin/placeholder/AutofacAttribue.dll": {}
+        }
+      },
+      "EntityFormworkCore6/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/EntityFormworkCore6.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntityFormworkCore6.dll": {}
         }
       }
     }
@@ -1961,6 +1976,11 @@
       "type": "project",
       "path": "../AutofacAttribue/AutofacAttribue.csproj",
       "msbuildProject": "../AutofacAttribue/AutofacAttribue.csproj"
+    },
+    "EntityFormworkCore6/1.0.0": {
+      "type": "project",
+      "path": "../EntityFormworkCore6/EntityFormworkCore6.csproj",
+      "msbuildProject": "../EntityFormworkCore6/EntityFormworkCore6.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -12,3 +12,6 @@ D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Inter
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Interface\obj\Debug\net6.0\ref\Advanced.Net6.Interface.dll
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Interface\bin\Debug\net6.0\Advanced.Net6.Interface.runtimeconfig.json
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Interface\obj\Debug\net6.0\Advanced.Net6.Interface.genruntimeconfig.cache
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Interface\bin\Debug\net6.0\EntityFormworkCore6.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Interface\bin\Debug\net6.0\EntityFormworkCore6.pdb
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Interface\obj\Debug\net6.0\Advanced.Net6.Interface.csproj.CopyComplete

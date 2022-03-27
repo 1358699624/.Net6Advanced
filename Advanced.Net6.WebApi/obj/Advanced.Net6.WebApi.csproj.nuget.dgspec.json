@@ -4,14 +4,14 @@
     "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.WebApi\\Advanced.Net6.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.WebApi\\Advanced.Net6.WebApi.csproj": {
+    "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Interface\\Advanced.Net6.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.WebApi\\Advanced.Net6.WebApi.csproj",
-        "projectName": "Advanced.Net6.WebApi",
-        "projectPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.WebApi\\Advanced.Net6.WebApi.csproj",
+        "projectUniqueName": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Interface\\Advanced.Net6.Interface.csproj",
+        "projectName": "Advanced.Net6.Interface",
+        "projectPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Interface\\Advanced.Net6.Interface.csproj",
         "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-        "outputPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.WebApi\\obj\\",
+        "outputPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,204 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Service\\Advanced.Net6.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Service\\Advanced.Net6.Service.csproj",
+        "projectName": "Advanced.Net6.Service",
+        "projectPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Service\\Advanced.Net6.Service.csproj",
+        "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
+        "outputPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Interface\\Advanced.Net6.Interface.csproj": {
+                "projectPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Interface\\Advanced.Net6.Interface.csproj"
+              },
+              "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\AutofacAttribue\\AutofacAttribue.csproj": {
+                "projectPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\AutofacAttribue\\AutofacAttribue.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.WebApi\\Advanced.Net6.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.WebApi\\Advanced.Net6.WebApi.csproj",
+        "projectName": "Advanced.Net6.WebApi",
+        "projectPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.WebApi\\Advanced.Net6.WebApi.csproj",
+        "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
+        "outputPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Service\\Advanced.Net6.Service.csproj": {
+                "projectPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\Advanced.Net6.Service\\Advanced.Net6.Service.csproj"
+              },
+              "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\EntityFormworkCore6\\EntityFormworkCore6.csproj": {
+                "projectPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\EntityFormworkCore6\\EntityFormworkCore6.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.12, )"
@@ -72,9 +270,21 @@
               "target": "Package",
               "version": "[6.0.3, )"
             },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.14, )"
             }
           },
           "imports": [
@@ -91,6 +301,90 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\AutofacAttribue\\AutofacAttribue.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\AutofacAttribue\\AutofacAttribue.csproj",
+        "projectName": "AutofacAttribue",
+        "projectPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\AutofacAttribue\\AutofacAttribue.csproj",
+        "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
+        "outputPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\AutofacAttribue\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

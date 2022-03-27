@@ -17,3 +17,5 @@ D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Servi
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\obj\Debug\net6.0\ref\Advanced.Net6.Service.dll
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\bin\Debug\net6.0\Advanced.Net6.Service.runtimeconfig.json
 D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\obj\Debug\net6.0\Advanced.Net6.Service.genruntimeconfig.cache
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\bin\Debug\net6.0\EntityFormworkCore6.dll
+D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.Service\bin\Debug\net6.0\EntityFormworkCore6.pdb

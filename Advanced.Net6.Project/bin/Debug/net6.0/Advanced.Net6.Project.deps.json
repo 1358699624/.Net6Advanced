@@ -2492,6 +2492,7 @@
         "dependencies": {
           "Autofac": "6.3.0",
           "Autofac.Extensions.DependencyInjection": "7.2.0",
+          "EntityFormworkCore6": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
         },
@@ -2520,6 +2521,15 @@
         },
         "runtime": {
           "AutofacAttribue.dll": {}
+        }
+      },
+      "EntityFormworkCore6/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
+        },
+        "runtime": {
+          "EntityFormworkCore6.dll": {}
         }
       }
     }
@@ -3983,6 +3993,11 @@
       "sha512": ""
     },
     "AutofacAttribue/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFormworkCore6/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

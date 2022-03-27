@@ -1,0 +1,48 @@
+2022-03-27 18:28:35,661 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5029
+2022-03-27 18:28:35,928 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-27 18:28:35,946 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-27 18:28:35,967 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\
+2022-03-27 18:30:49,004 [20] INFO  Advanced.Net6.WebApi.CompanyEF6Controller - 执行查询语句
+2022-03-27 18:33:02,017 [24] INFO  Advanced.Net6.WebApi.CompanyEF6Controller - 执行查询语句
+2022-03-27 18:33:28,752 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5029
+2022-03-27 18:33:29,689 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-27 18:33:29,731 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-27 18:33:29,752 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\
+2022-03-27 18:35:16,511 [23] INFO  Advanced.Net6.WebApi.CompanyEF6Controller - 执行查询语句
+2022-03-27 18:41:28,612 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5029
+2022-03-27 18:41:29,265 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-27 18:41:29,289 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-27 18:41:29,296 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\
+2022-03-27 18:42:10,389 [6] INFO  Advanced.Net6.WebApi.CompanyEF6Controller - 执行查询语句
+2022-03-27 18:44:24,631 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5029
+2022-03-27 18:44:24,867 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-27 18:44:24,883 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-27 18:44:24,891 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\
+2022-03-27 18:45:33,097 [21] INFO  Advanced.Net6.WebApi.CompanyEF6Controller - 执行查询语句
+2022-03-27 18:48:10,851 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5029
+2022-03-27 18:48:11,541 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-27 18:48:11,587 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-27 18:48:11,615 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\
+2022-03-27 18:49:49,089 [21] INFO  Advanced.Net6.WebApi.CompanyEF6Controller - this is  LogInformation
+2022-03-27 18:49:49,140 [21] WARN  Advanced.Net6.WebApi.CompanyEF6Controller - this is  LogWarning
+2022-03-27 18:49:49,158 [21] ERROR Advanced.Net6.WebApi.CompanyEF6Controller - this is  LogError
+2022-03-27 18:49:49,165 [21] FATAL Advanced.Net6.WebApi.CompanyEF6Controller - this is  LogCritical
+2022-03-27 18:49:49,173 [21] INFO  Advanced.Net6.WebApi.CompanyEF6Controller - 执行查询语句
+2022-03-27 18:50:36,299 [24] INFO  Advanced.Net6.WebApi.CompanyEF6Controller - this is  LogInformation
+2022-03-27 18:50:37,147 [24] WARN  Advanced.Net6.WebApi.CompanyEF6Controller - this is  LogWarning
+2022-03-27 18:50:38,197 [24] ERROR Advanced.Net6.WebApi.CompanyEF6Controller - this is  LogError
+2022-03-27 18:50:39,532 [24] FATAL Advanced.Net6.WebApi.CompanyEF6Controller - this is  LogCritical
+2022-03-27 18:50:40,245 [24] INFO  Advanced.Net6.WebApi.CompanyEF6Controller - 执行查询语句
+2022-03-27 19:04:29,744 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5029
+2022-03-27 19:04:31,005 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-27 19:04:31,072 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-27 19:04:31,181 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\
+2022-03-27 19:05:25,893 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5029
+2022-03-27 19:05:26,657 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-27 19:05:26,793 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-27 19:05:26,911 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\VS2019\vs2022\Advanced.Net6.Project\Advanced.Net6.Project\Advanced.Net6.WebApi\
+2022-03-27 19:06:04,297 [9] INFO  Advanced.Net6.WebApi.CompanyEF6Controller - this is  LogInformation
+2022-03-27 19:06:04,365 [9] WARN  Advanced.Net6.WebApi.CompanyEF6Controller - this is  LogWarning
+2022-03-27 19:06:04,390 [9] ERROR Advanced.Net6.WebApi.CompanyEF6Controller - this is  LogError
+2022-03-27 19:06:04,405 [9] FATAL Advanced.Net6.WebApi.CompanyEF6Controller - this is  LogCritical
+2022-03-27 19:06:04,425 [9] INFO  Advanced.Net6.WebApi.CompanyEF6Controller - 执行查询语句

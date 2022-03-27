@@ -656,6 +656,20 @@
             "rid": "win"
           }
         }
+      },
+      "EntityFormworkCore6/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/EntityFormworkCore6.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntityFormworkCore6.dll": {}
+        }
       }
     }
   },
@@ -1920,12 +1934,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "EntityFormworkCore6/1.0.0": {
+      "type": "project",
+      "path": "../EntityFormworkCore6/EntityFormworkCore6.csproj",
+      "msbuildProject": "../EntityFormworkCore6/EntityFormworkCore6.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Autofac >= 6.3.0",
       "Autofac.Extensions.DependencyInjection >= 7.2.0",
+      "EntityFormworkCore6 >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.3",
@@ -1963,7 +1983,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\EntityFormworkCore6\\EntityFormworkCore6.csproj": {
+              "projectPath": "D:\\VS2019\\vs2022\\Advanced.Net6.Project\\Advanced.Net6.Project\\EntityFormworkCore6\\EntityFormworkCore6.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

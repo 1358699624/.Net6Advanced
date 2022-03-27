@@ -4,6 +4,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using EntityFormworkCore6;
 using EntityFormworkCore6.Models;
+using Advanced.Net6.Service;
+using System.Linq.Expressions;
+using Advanced.Net6.Interface;
 
 namespace Advanced.Net6.WebApi
 {
@@ -12,6 +15,14 @@ namespace Advanced.Net6.WebApi
     [Authorize]
     public class CompanyEF6Controller : ControllerBase
     {
+        private readonly ICommpayService _commpayService;
+        private readonly ILogger<CompanyEF6Controller> _logger;
+
+        public CompanyEF6Controller(ILogger<CompanyEF6Controller> logger, ICommpayService commpayService)
+        {
+            this._logger = logger;
+            _commpayService = commpayService;
+        }
 
         [ApiExplorerSettings(GroupName = nameof(ApiVersionInfo.V4))]
         [HttpGet()]
@@ -28,10 +39,10 @@ namespace Advanced.Net6.WebApi
 
                     };
 
-                     customerDb.Add<Company>(company);
-                     customerDb.SaveChanges();
+                    customerDb.Add<Company>(company);
+                    customerDb.SaveChanges();
 
-                    Company  company1  = customerDb.Companies.OrderByDescending(c => c.Id).FirstOrDefault();
+                    Company company1 = customerDb.Companies.OrderByDescending(c => c.Id).FirstOrDefault();
                     company1.Name = "tdk";
 
                     customerDb.Update(company);
@@ -47,26 +58,58 @@ namespace Advanced.Net6.WebApi
             return "";
         }
 
-        [ApiExplorerSettings(GroupName= nameof(ApiVersionInfo.V4))]
+        [ApiExplorerSettings(GroupName = nameof(ApiVersionInfo.V4))]
         [HttpGet()]
-        public async  Task<string> Get2() {
+        public async Task<string> Get2() {
             {
-                using (CustomerDbContext customerDb = new CustomerDbContext ())
+                using (CustomerDbContext customerDb = new CustomerDbContext())
                 {
                     Company company = new Company
                     {
                         Name = "string>",
-                         CreateTime = DateTime.Now,
-                             CreatorId =   55
-                                
-                    };    
+                        CreateTime = DateTime.Now,
+                        CreatorId = 55
 
-                     await  customerDb.AddAsync(company);
-                     await  customerDb.SaveChangesAsync();              
+                    };
+
+                    await customerDb.AddAsync(company);
+                    await customerDb.SaveChangesAsync();
                 }
             }
-            
+
             return "";
+        }
+
+
+        [ApiExplorerSettings(GroupName = nameof(ApiVersionInfo.V3))]
+        [AllowAnonymous]
+        [HttpGet()]
+        public object QueryPage()
+        {
+            try
+            {
+                int pageSize = 10;
+                int pageindex = 1;
+                Expression<Func<Company, bool>> expression = c => true;
+
+                expression = c => c.CreatorId == 1 && c.CreateTime.ToString().Contains("19");
+                //expression = c => c.CreatorId == 1;
+                var company = _commpayService.QueryPage<Company, int>(expression, pageSize, pageindex, c => c.Id);
+                _logger.LogDebug("this is  LogDebug");
+                _logger.LogInformation("this is  LogInformation");
+                _logger.LogWarning("this is  LogWarning");
+                _logger.LogError("this is  LogError");
+                _logger.LogTrace("this is  LogTrace");
+                _logger.LogCritical("this is  LogCritical");
+                _logger.LogInformation("执行查询语句");
+                return company;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return null;
+            }
+           
         }
     }
 }

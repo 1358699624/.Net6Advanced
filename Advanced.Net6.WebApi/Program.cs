@@ -1,13 +1,23 @@
+using Advanced.Net6.Interface;
+using Advanced.Net6.Service;
 using Advanced.Net6.WebApi.Controllers;
+using EntityFormworkCore6.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 using System.Text;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+#region Log4»’÷æ
+
+builder.Logging.AddLog4Net("CfgFile/log4net.Config");
+#endregion
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -88,6 +98,19 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     };
 });
 
+#endregion
+
+
+
+#region IOC
+builder.Services.AddTransient<IBaseService, BaseService>();
+builder.Services.AddTransient<ICommpayService, CommpayService>();
+builder.Services.AddTransient<DbContext, CustomerDbContext>();
+#endregion
+
+#region Autofac
+
+//builder.Services.AddTransient<ICommpayService, CommpayService>();
 #endregion
 
 var app = builder.Build();

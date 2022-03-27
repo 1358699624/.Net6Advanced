@@ -10,6 +10,7 @@
         "dependencies": {
           "Autofac": "6.3.0",
           "Autofac.Extensions.DependencyInjection": "7.2.0",
+          "EntityFormworkCore6": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.3",
           "Microsoft.EntityFrameworkCore.Design": "6.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3",
@@ -508,6 +509,15 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "EntityFormworkCore6/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.3"
+        },
+        "runtime": {
+          "EntityFormworkCore6.dll": {}
+        }
       }
     }
   },
@@ -831,6 +841,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "EntityFormworkCore6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
